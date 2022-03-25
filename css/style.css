@@ -448,8 +448,8 @@ button {
 }
 .advantage {
   padding-top: 1px;
-  padding-bottom: 12px;
-  height: 31px;
+  padding-bottom: 14px;
+  height: 20px;
   width: 300px;
   border-bottom: 1px solid #d5d5e0;
 }
@@ -482,18 +482,15 @@ button {
   color: #676770;
 }
 .social svg {
-  padding-top: 20px;
+  padding-top: 23px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
-  width: 23px;
   height: auto;
   object-fit: none;
-  margin-left: 10px;
-  padding-bottom: 11px;
 }
 .social-line {
-  padding-top: 20px;
+  padding-top: 25px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
@@ -501,6 +498,11 @@ button {
   height: auto;
   object-fit: none;
   margin-left: 10px;
+  color: #668cad;
+}
+.social-line P {
+  color: #668cad;
+  height: 21px;
+  width: 300px;
   border-bottom: 1px solid #d5d5e0;
-  width: 270;
 }

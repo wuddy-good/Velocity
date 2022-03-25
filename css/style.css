@@ -404,6 +404,7 @@ button {
 }
 /* Social */
 .iformation-velocity {
+  height: 260.53px;
   margin-top: 80.83px;
   padding-top: 34.67px;
   height: 225px;
@@ -412,6 +413,7 @@ button {
   display: flex;
 }
 .about {
+  margin-bottom: 92px;
   width: 299px;
 }
 .about-title {
@@ -424,18 +426,31 @@ button {
   line-height: 25px;
 }
 .useful {
+  margin-bottom: 76px;
 }
 .useful-title {
 }
 .useful-list ul {
+  margin-top: 22px;
   display: flex;
   flex-direction: column;
 }
+.useful-list li + li {
+  margin-top: 5px;
+}
 .advantage {
+  padding-top: 1px;
+  padding-bottom: 12px;
+  height: 31px;
+  width: 300px;
+  border-bottom: 1px solid #d5d5e0;
 }
 .advatage-subtitle {
 }
 .social {
+  width: 220px;
+  padding-left: 11px;
+  padding-right: 10px;
 }
 .social ul {
   display: flex;
@@ -443,9 +458,14 @@ button {
 }
 .social li {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .social-title {
   display: flex;
+}
+.social svg {
 }
 .social-line {
 }

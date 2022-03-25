@@ -296,12 +296,7 @@ button {
   border-radius: 4px;
 }
 /*TAB SECTION */
-.tab-service {
-}
-.container {
-}
-.tab-header {
-}
+
 .tab-title {
   justify-content: center;
   display: flex;
@@ -417,6 +412,12 @@ button {
   width: 299px;
 }
 .about-title {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #676770;
 }
 .about-subtitle {
   padding-left: auto;
@@ -424,11 +425,18 @@ button {
   font-family: "Open Sans";
   font-size: 14px;
   line-height: 25px;
+  color: #6a859c;
 }
 .useful {
   margin-bottom: 76px;
 }
 .useful-title {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #676770;
 }
 .useful-list ul {
   margin-top: 22px;
@@ -436,7 +444,7 @@ button {
   flex-direction: column;
 }
 .useful-list li + li {
-  margin-top: 5px;
+  margin-top: 3px;
 }
 .advantage {
   padding-top: 1px;
@@ -446,6 +454,8 @@ button {
   border-bottom: 1px solid #d5d5e0;
 }
 .advatage-subtitle {
+  color: #668cad;
+  font-size: 14px;
 }
 .social {
   width: 220px;
@@ -463,9 +473,34 @@ button {
 }
 
 .social-title {
+  margin-left: 75px;
   display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #676770;
 }
 .social svg {
+  padding-top: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 23px;
+  height: auto;
+  object-fit: none;
+  margin-left: 10px;
+  padding-bottom: 11px;
 }
 .social-line {
+  padding-top: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 26px;
+  height: auto;
+  object-fit: none;
+  margin-left: 10px;
+  border-bottom: 1px solid #d5d5e0;
+  width: 270;
 }

@@ -445,6 +445,7 @@ button {
   display: flex;
 }
 .social-title {
+  display: flex;
 }
 .social-line {
 }
